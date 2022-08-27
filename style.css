@@ -1,0 +1,674 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    box-sizing: border-box; 
+}
+
+.pemisah{
+    width: 100%;
+}
+
+.cover{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(250 237 205);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 8% 0 8%;
+}
+.logo{
+    color: black;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span{
+    color: black;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+    margin-bottom: 40px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: rgb(212 163 115);
+    transition: .9s;
+}
+.btn{
+    background-color: rgb(212 163 115);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transform: .4s;
+    margin-bottom: 40px;
+}
+.btn:hover{
+    transform: scale(2);
+}
+/* End of Navbar */
+
+/* Jumbotron */
+.content{
+    position: relative;
+    display: flex;
+}
+h5{
+    color: rgb(212 163 115);
+    margin: 10px 45px 10px;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+.name{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.line1{
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(212 163 115);
+    width: 40px;
+    margin-bottom: -23px;
+    background-color: rgb(212 163 115);
+}
+h3{
+    color: black;
+    margin-top : 15px;
+    font-size: 29px;
+}
+h1{
+    color: black;
+    margin: 5px 0px 2px;
+    font-size: 45px;
+}
+h2{
+    color: black;
+    margin-bottom: 50px;;
+    font-weight: bold;
+    font-size: 40px;
+}
+span{
+    color: rgb(212 163 115);
+}
+.profil{
+    position: absolute;
+    margin-top: -150px;
+    top:190px;
+    width: 445px;
+    height: 443px;
+    left: 950px;
+    border-radius: 100%;
+}
+.news {
+    background-color: rgb(212 163 115);
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transform: .4s;
+    margin-left: 100px;
+    width: 150px;
+    text-align: right;
+    margin-right: 790px;
+}  
+
+/* About me */
+.about{
+    margin-top: 270px;
+    width: 100%;
+    height: 110vh;
+    padding: 120px 0px;
+    background-color: rgb(212 163 115);
+}
+.about img{
+    height: auto;
+    width: 350px;
+    border-radius: 70px;
+}
+.about-text{
+    width: 550px;
+    margin-left: 600px;
+    margin-top: -350px;
+    color: white;
+}
+.main{
+    width: 750px;
+    height: 500px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: inline-block;
+    margin-left: 200px;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+.line2{
+    border-width: 3px;
+    height: 5px;
+    border-color:black ;
+    width: 50px;
+    margin-top: 1px;
+    border-style: solid;
+    background-color: black;
+}
+.about-text h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: -32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 70px;
+}
+
+/* Skill */
+.skills{
+    background-color: rgb(250 237 205);
+    width: 100%;
+    height: 110vh;
+    font-size: 40px;
+    padding: 100px 0;
+}
+.title{
+    margin-left: 650px;
+}
+.title h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: -32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.line3{
+    border-width: 3px;
+    height: 5px;
+    border-color:black ;
+    width: 50px;
+    margin-top: 1px;
+    border-style: solid;
+    background-color: black;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+/* Card1 */
+.card1{
+    height: 450px;
+    width: 400px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.card1 h5{
+    font-size: 37px;
+    text-align: center;
+    color: white;
+}
+.html1{
+    width: 70%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.css{
+    width: 65%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.php{
+    width: 50%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+/* Card2 */
+.card2{
+    height: 450px;
+    width: 400px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.card2 h5{
+    font-size: 37px;
+    text-align: center;
+    color: white;
+}
+.mysql{
+    width: 40%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+/* Card3 */
+.card3{
+    height: 450px;
+    width: 400px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.card3 h5{
+    font-size: 37px;
+    text-align: center;
+    color: white;
+}
+.figma{
+    width: 73%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.photoshop{
+    width: 68%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+.ilustrator{
+    width: 74%;
+    height: 20px;
+    background-color: rgb(212 163 115);
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.skill-bar{
+    padding-top: 17px;
+    padding-bottom: 0px;
+    color: white;
+}
+.skill-bar p{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+}
+.skill-box{
+    text-align: right;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(250 237 205);
+    border-radius: 20px;
+}
+
+/* Portofolio */
+.portofolio{
+    width: 100%;
+    height: 200vh;
+    padding: 120px 0px;
+    background-color: rgb(212 163 115);
+}
+.all{
+    margin-top: -50px;
+}
+.title2{
+    margin-left: 1000px;
+    margin-bottom: 140px;
+}
+.title2 h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: -32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.line4{
+    border-width: 3px;
+    height: 5px;
+    border-color:black ;
+    width: 50px;
+    margin-top: 1px;
+    border-style: solid;
+    background-color: black;
+}
+.project1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+}
+.box1{
+    height: 500px;
+    width: 285px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box1 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box1 img{
+    width: 193px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.box2{
+    height: 500px;
+    width: 290px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box2 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box2 img{
+    width: 230px;
+    height: auto;
+    margin-left: -5px;
+}
+
+.box3{
+    height: 500px;
+    width: 290px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box3 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box3 img{
+    width: 230px;
+    height: auto;
+    margin-left: -5px;
+    margin-top: 10px;
+}
+
+.project2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.box4{
+    height: 360px;
+    width: 580px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box4 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box4 img{
+    width: 445px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.box5{
+    height: 360px;
+    width: 580px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box5 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box5 img{
+    width: 340px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.box6{
+    height: 360px;
+    width: 580px;
+    padding: 20px 35px;
+    background-color: rgb(204 213 174);
+    border-radius: 10px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;  
+}
+.box6 h3{
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: -10px;
+}
+.box6 img{
+    width: 455px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -23px;
+}
+
+/* Contact */
+.contact{
+    width: 100%;
+    height: 110vh;
+    background-color: rgb(250 237 205);
+    display: flex;
+}
+.title3{
+    margin-left: 10px;
+    margin-top: 60px;
+}
+.title3 h2{
+    color: black;
+    letter-spacing: 2px;
+    font-size: 40px;
+    margin-top: -32px;
+    text-transform: capitalize;
+    font-weight: bold;
+    margin-left: 70px;
+}
+.line5{
+    border-width: 5px;
+    height: 5px;
+    border-color:black ;
+    width: 50px;
+    margin-top: 1px;
+    border-style: solid;
+    background-color: black;
+}
+.sosmed h3{
+    margin-top: -20px;
+}
+.info{
+    margin-top: 56px;
+}
+.info h4{
+    font-size: 20px;
+}
+.info p{
+    margin-top: 5px;
+}
+.email{
+    margin-bottom: 80px;
+}
+.phone{
+    margin-bottom: 80px;
+}
+
+.contact-card{
+    padding-top: 70px;
+    width: 100%;
+    margin-left: 180px;
+    margin-top: 165px;
+}
+form{
+    margin-left: 100px;
+}
+label{
+    display: block;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+input, textarea{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(204 213 174);
+    box-sizing: border-box;
+}
+.send-message{
+    background-color: rgb(204 213 174);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 20%;
+    padding: 17px 30px;
+    width: unset;
+    cursor: pointer;
+    margin-left: 420px;
+}
+.sosmed{
+    padding-left: 100px;
+}
+
+/* Footer */
+footer{
+    background-color: rgb(212 163 115);
+    height: auto;
+    width: 100%;
+    padding-top: 60px;
+    color: white;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-all{
+    margin-top: -50px;
+}
+.footer-content h3{
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+
+.barisemail{
+    margin-top: 10px;
+    margin-left: 37px;
+} 
+.imgicon{
+    float: left;
+    width: 20px;
+    
+    height: auto;
+}
+.news:hover{
+    transform: scale(2);
+}
+.icon{
+    margin-right: 50px;
+    width: 50px;
+    height: auto;
+    list-style: none;
+}
+.icon a{
+    color: white;
+    font-size: 25px;
+    transition: color .4s ease;
+}
+.icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+.icon a:hover {
+    color: rgb(250 237 205);
+}
+
+
